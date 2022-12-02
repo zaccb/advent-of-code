@@ -1,8 +1,8 @@
 import fs from 'fs';
 
 // parse input file to array
-const FILENAME = './input.txt';
 // const FILENAME = './sample.txt';
+const FILENAME = './input.txt';
 const input = fs.readFileSync(FILENAME, { encoding: "utf-8" }).trim();
 const rounds = input.split(/\r\n/);
 
