@@ -32,5 +32,16 @@ calories.forEach(entry => {
     }
 });
 
+// calc result
+let topNPlaces = 3;
+let totalSum = 0;
+
+// pop top n elves from stack and total their calories
+while(topNPlaces > 0) {
+    totalSum += queue.dequeue();
+    topNPlaces--;
+}
+
 // print solution
-console.log(queue.peek());
+// correct answer is: 208191
+console.log(totalSum);

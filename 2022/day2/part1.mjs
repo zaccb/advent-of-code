@@ -48,4 +48,5 @@ rounds.forEach(round => {
 });
 
 // print solution
+// correct answer is: 
 console.log(sum);
